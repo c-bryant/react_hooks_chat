@@ -1,18 +1,17 @@
-# React Hooks Chat 
+# Project Title (e.g., React Hooks Chat Application)
 
-*A simple React.js chat/messaging app utilizing the CometChat SDK and React Hooks.*
+A modern, light-weight React application designed to demonstrate clean state architecture and custom hook patterns.
 
-**[View Demo](https://react-hooks-chat-app.netlify.com)**
+## 🛠️ Technical Stack & Architecture
+* **Frontend:** React (Functional Components)
+* **State Management:** React Context API & `useReducer`
+* **Styling:** CSS Modules / Styled Components
 
-**Username:**  superhero[1-5]
- `superhero1` 
- `superhero2` 
- `etc...`
+## 🧠 Architectural Choices Demonstrated
+* **Separation of Concerns:** Business logic is entirely extracted out of the UI view layer and isolated into custom hooks.
+* **Performance Optimization:** Leveraged decoupled context scopes to prevent unnecessary component tree re-renders.
 
-
-
-
-
-
-
-
+## 🚀 How to Run Locally
+1. Clone the repository: `git clone <repo-url>`
+2. Install dependencies: `npm install`
+3. Run the development server: `npm run start` (or `npm run dev` if migrated to Vite)
